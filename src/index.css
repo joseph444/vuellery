@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Source+Sans+Pro:ital,wght@1,300&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-1{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.font-2{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.font-3{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.fullscreen{
+  
+  height: 100vh;
+  overflow: hidden;
+}
