@@ -2,8 +2,8 @@
  <div class="flex flex-col  bg-green-300  items-center w-full h-screen py-36 lg:pt-20">
       <div class="flex flex-row items-center h-full md:mt-0">
         <div class="flex flex-col items-center w-full">
-          <form-1 class="" v-if="form==1" @changeForm="chgfm"></form-1>
-          <form-2 v-else @changeForm="chgfm"></form-2>
+          <form-1 class="mt-20"  v-if="form==1" @changeForm="chgfm"></form-1>
+          <form-2 class="mt-20"  v-else @changeForm="chgfm"></form-2>
         </div>
       </div>
   </div>
