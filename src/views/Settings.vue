@@ -6,21 +6,21 @@
           </div>
           <hr class="border-black">
           <div class="card-body p-2">
-              <div class="flex justify-between items-start">
+              <div class="flex justify-between items-start w-full">
                 
                   <div class="text-xl text-gray-500 font-3">
                       Profile Details
                     </div>
               </div>
-              <div class="grid grid-cols-2 text-lg font-2  font-bold px-5">
+              <div class="grid grid-cols-2 text-lg font-2  font-bold px-5 w-full">
                   <div class="">Username</div><div class="">{{getProfile().username}}</div>
                   <div>Email</div><div>{{getCurrentUser().email}}</div>
                   <div>Current Plan</div><div class="uppercase">{{getPlans()[getProfile().plan].name}}</div>
               </div>
-              <div class="flex justify-between items-start mt-2">
+              <div class="flex justify-between items-start mt-2 w-full">
                   <div class="text-xl text-gray-500 font-3">Usage Details</div>
               </div>
-              <div class="grid grid-cols-2 text-lg font-2  font-bold px-5 ">
+              <div class="grid grid-cols-2 text-lg font-2  font-bold px-5 w-full">
                   <div class="">Maximum Photos</div><div class="">{{getPlans()[getProfile().plan].max}}</div>
                   <div>Number Of Uploads</div><div>{{getPhotos()?getPhotos().length:0}}</div>
                   <div>Number Of Remaing</div><div class="uppercase">{{getPlans()[getProfile().plan].max-(getPhotos()?getPhotos().length:0)}}</div>

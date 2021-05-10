@@ -1,5 +1,5 @@
 <template>
- <div class="flex flex-col  bg-green-300  items-center w-full fullscreen pt-32 lg:pt-20">
+ <div class="flex flex-col  bg-green-300  items-center w-full h-screen pt-36 lg:pt-20">
       <div class="flex flex-row items-center h-full md:mt-0">
         <div class="flex flex-col items-center w-full">
           <form-1 class="" v-if="form==1" @changeForm="chgfm"></form-1>
